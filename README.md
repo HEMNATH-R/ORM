@@ -53,9 +53,9 @@ class Car(models.Model):
 
 
 
-## OUTPUT:!
+## OUTPUT:
 
-[alt text](<Screenshot 2025-09-26 084830.png>)
+![alt text](<Screenshot (123).png>)
 
 
 ## RESULT
