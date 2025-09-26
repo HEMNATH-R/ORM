@@ -32,7 +32,7 @@ from .models import Car
 
 admin.site.register(Car)
 class CarAdmin(admin.ModelAdmin):
-    list_display = ('id', 'brand', 'model', 'year', 'price')
+    list_display = ('Car_id', 'brand', 'model', 'year', 'price')
 ```
 ## 2.MODELS.PY
 ```
@@ -43,7 +43,7 @@ from django.forms import IntegerField
 # Create your models here.
 
 class Car(models.Model):
-    id = models. IntegerField(primary_key=True)
+    Car_id = models. IntegerField(primary_key=True)
     brand = models.CharField(max_length=15)
     model = models. CharField(max_length=30)
     year = models. DateField()
